@@ -1,6 +1,4 @@
-# Additional Puppet code for vRealize Automation Plug-in Starter Content Pack for vRA 7.3 and Puppet plug-in for vRealize 3.0
-
-With vRA 7.3 and the Puppet plug-in for vRealize Automation 3.0, building Puppet Enterprise blueprints is easier than ever with PE components now built directly into the vRA Enterprise GUI. While creating blueprints, you simply drag and drop the Puppet component onto the blueprint and fill in a couple of text boxes. No need to jump back and forth from vRA to vRO to get set up. Even better, Puppet role classes are now read dynamically from your Puppet Server, so you need only pick from the list instead of typing classes out manually.
+# Additional Puppet code for vRealize Automation Plug-in Starter Content Pack for vRA 7.3 and Puppet plug-in for vRealize 3.0With vRA 7.3 and the Puppet plug-in for vRealize Automation 3.0, building Puppet Enterprise blueprints is easier than ever with PE components now built directly into the vRA Enterprise GUI. While creating blueprints, you simply drag and drop the Puppet component onto the blueprint and fill in a couple of text boxes. No need to jump back and forth from vRA to vRO to get set up. Even better, Puppet role classes are now read dynamically from your Puppet Server, so you need only pick from the list instead of typing classes out manually.
 
 This Puppet code adds additional Modules, Manifests, Profiles and Roles for deploying a LAMP stack using a multi-machine vRA 7.3 blueprint.
 
@@ -13,11 +11,11 @@ Use vRA Custom Properties to define database name, user and password during requ
 - lamp_db_user
 - lamp_db_password
 
-After a succesful deployment, open a webbrowser and type in (http://[IP adress/FQDN of your webapp server]) to verify the database connection. 
+After a succesful deployment, open a webbrowser and type in http://[IP adress/FQDN of your webapp server] to verify the database connection. 
 
-For using this code you must have a Puppet Enterprise 7.x server, VMware vRealize Automation 7.3 with Puppet plug-in 3.0
+For using this code you must have Puppet Enterprise 7.x and VMware vRealize Automation 7.3 with Puppet plug-in 3.0 installed. Also the Puppet-vRO-Starter_Content pack has to be installed because the LAMP stack depends on several Profiles available in this Starter_Content.
 
-Special thanks for creation and testing of this LAMP content to Jeremy Adams and Kevin Reeuwijk from Puppet.
+Special thanks for creation and testing of this LAMP content to Jeremy Adams and Kevin Reeuwijk from Puppet!
 
 
 ## Getting started with Puppet Enterprise and Puppet plug-in for vRealize Automation
